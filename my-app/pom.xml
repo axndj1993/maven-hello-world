@@ -10,7 +10,7 @@
 
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
-      <java.home>C:\Program Files\Java\jdk-11.0.9</java.home>
+      <annotatedJdk>${org.checkerframework:jdk11:jar}</annotatedJdk>
   </properties>
 
   <dependencies>
